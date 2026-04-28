@@ -11,7 +11,7 @@ Internet Connection
 Computer / Laptop
 ```
 # Theory
-# Ideal or Instantaneous or Impulse Sampling:
+# Ideal or Instantaneous or Impulse Sampling: 
 Sampling signal is a periodic impulse train. The area of each impulse in the sampled signal is equal to the instantaneous value of the input signal.
 
 # Natural Sampling:
