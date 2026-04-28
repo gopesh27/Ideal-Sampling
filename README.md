@@ -1,4 +1,4 @@
-# Ideal, Natural, & Flat-top -Sampling
+# Experimental verification of Signal sampling using various types
 # Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 # Tools required
@@ -10,11 +10,19 @@ Matplotlib Library
 Internet Connection
 Computer / Laptop
 ```
+# Theory
+# Ideal or Instantaneous or Impulse Sampling:
+Sampling signal is a periodic impulse train. The area of each impulse in the sampled signal is equal to the instantaneous value of the input signal.
+
+# Natural Sampling:
+Natural sampling is also called practical sampling. In this sampling technique, the sampling signal is a pulse train. In natural sampling method, the top of each pulse in the sampled signal retains the shape of the input signal during pulse interval.
+
+# Flat Top Sampling:
+The flat top sampling is also the practical sampling technique. In the flat top sampling, the sampling signal is also a pulse train. The top of each pulse in the sampled signal remain constant and is equal to the instantaneous value of the input signal 𝑥(𝑛) at the start of the samples.
 # Program
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-
 fm = 5                      # Message frequency 5hz
 fs = 50                     # Sampling frequency 50hz
 t = np.linspace(0, 1, 1000) # Continuous time axis
@@ -66,11 +74,9 @@ plt.show()
 ```
 # Output Waveform
 
-<img width="1257" height="845" alt="image" src="https://github.com/user-attachments/assets/99e03023-7641-4a39-a72a-22767323bdb4" />
-
+<img width="1009" height="660" alt="WhatsApp Image 2026-04-21 at 9 01 43 AM" src="https://github.com/user-attachments/assets/31269f5e-21b1-410a-ab41-8928c22071b1" />
 
 
 # Results
-```
-a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling verified using google collab
-```
+
+ A simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling is simulated using google colab.
